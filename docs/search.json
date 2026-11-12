@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Apresentação",
     "section": "",
-    "text": "Sobre o autor\nBem-vindo ao material de apoio!\nRodrigo Yudi Palhaci Marubayashi\nEngenheiro Agrônomo, Especialista em Estatística e Doutor em Agronomia\nDocente do Departamento de Estatística (DSTA-UEL)\nMembro Permanente do Programa de Pós-Graduação em Matemática Aplicada e Computacional (PGMAC-UEL)\nConsultor Estatística Aplicada\nE-mail | LinkedIn | Lattes",
+    "text": "Sobre o autor\nBem-vindo ao material de apoio!\nRodrigo Yudi Palhaci Marubayashi\nEngenheiro Agrônomo, Especialista em Estatística e Doutor em Agronomia\nDocente no Departamento de Estatística (DSTA-UEL)\nMembro Permanente do Programa de Pós-Graduação em Matemática Aplicada e Computacional (PGMAC-UEL)\nConsultor Estatística Aplicada\nE-mail | LinkedIn | Lattes",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Apresentação</span>"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#links-úteis",
     "title": "Apresentação",
     "section": "Links úteis",
-    "text": "Links úteis\nDepartamento de Estatística UEL\nPrograma de Pós-Graduação em Matemática Aplicada e Computacional\nProjeto Fisher",
+    "text": "Links úteis\nDepartamento de Estatística UEL\nPrograma de Pós-Graduação em Matemática Aplicada e Computacional UEL\nProjeto Fisher UEL",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Apresentação</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "capitulo3.html#medidas-de-posição",
     "title": "4  Estatística descritiva",
     "section": "",
-    "text": "4.1.1 Média\n\n\n4.1.2 Mediana\n\n\n4.1.3 Moda",
+    "text": "4.1.1 Média\n\n\n4.1.2 Moda\n\n\n4.1.3 Medidas separatrizes",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Estatística descritiva</span>"
     ]
