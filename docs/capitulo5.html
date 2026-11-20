@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.10.19">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; Estatística experimental</title>
+<title>6&nbsp; Estatística experimental – Título</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -79,14 +79,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-5c1318cf63eba56dbef7ba16bc7d56f5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6453f418aeef366c23116eb9cb0b6816.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-5c1318cf63eba56dbef7ba16bc7d56f5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-071f2cfab2509698780004be9a3705a4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-28465b6b87aa4d4b3ae6852c24e7e3ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-071f2cfab2509698780004be9a3705a4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-15cf77f33cbd9a33e23fb7c7de9cab1b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7cd8011197dd9e8ba62e454b151efcc9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-15cf77f33cbd9a33e23fb7c7de9cab1b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -101,19 +101,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -315,13 +316,13 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./capitulo5.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Estatística experimental</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -331,14 +332,19 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Título</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Procurar"></div>
         </div>
         </div>
-        <div class="sidebar-tools-collapse">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -414,7 +420,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sumário</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
   <li><a href="#planejamento-experimental" id="toc-planejamento-experimental" class="nav-link active" data-scroll-target="#planejamento-experimental"><span class="header-section-number">6.1</span> Planejamento experimental</a></li>
@@ -505,9 +511,14 @@ C_3 = \mu_1 + \mu_2 − 2\mu_3
 <p>são contrastes</p>
 <p><u>Resolução:</u></p>
 <p><span class="math display">\[
-C_1: 1 + (-1) + 0 = 0 \\
-C_2: 1 + 0 + (-1) = 0 \\
-C_3: 1 + 1 + (-2) = 0
+C_1: 1 + (-1) + 0 \\
+\boxed{C_1 = 0} \\
+\\
+C_2: 1 + 0 + (-1) \\
+\boxed{C_2 = 0} \\
+\\
+C_3: 1 + 1 + (-2) \\
+\boxed{C_3 = 0}
 \]</span></p>
 <p><strong>Teste de Scheffé</strong></p>
 <p>O teste de Scheffé (1953) pode ser aplicado para testar todo e qualquer contraste envolvendo médias de tratamentos do tipo</p>
@@ -524,7 +535,7 @@ C=c_1\mu_1+c_2\mu_2+\cdots+c_a\mu_a
 H_0: C = 0 \\
 H_1: C \neq 0
 \]</span></p>
-<p>Se rejeita-se H0, então o contraste difere estatisticamente de zero, e assim, os tratamentos ou os grupos são diferentes em média. Caso contrário, pode-se dizer que não são diferentes.</p>
+<p>Se rejeita-se <span class="math inline">\(H_0\)</span>, então o contraste difere estatisticamente de zero, e assim, os tratamentos ou os grupos são diferentes em média. Caso contrário, pode-se dizer que não são diferentes.</p>
 <p>A diferença mínima significativa, denotada por S, é calculada por:</p>
 <p><span class="math display">\[
 S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}}
@@ -535,58 +546,185 @@ S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}}
 <span class="math inline">\(QM_{res}\)</span> é o quadrado médio do resíduo da análise de variância;<br>
 <span class="math inline">\(c_i\)</span> são os coeficientes do contraste relacionado a cada tratamento <span class="math inline">\(i\)</span>;<br>
 <span class="math inline">\(b_i\)</span> são as repetições de cada tratamento <span class="math inline">\(i\)</span>.</p>
-<p><strong>Regra de decisão:</strong></p>
+<p><strong>Regras de decisão:</strong></p>
 <p>Se <span class="math inline">\(\hat{C} ≥ S\)</span>, rejeita-se <span class="math inline">\(H_0\)</span>, ou seja, o teste é significativo, o que indica que o contraste é diferente de zero.</p>
 <p>Se <span class="math inline">\(\hat{C} &lt; S\)</span>, não rejeita-se <span class="math inline">\(H_0\)</span>, ou seja, o teste não é significativo, o que indica que o contraste não é diferente de zero.</p>
-<p><strong>No R</strong></p>
+<p><strong>Exemplo 2</strong></p>
+<p>Consideremos as informações abaixo:</p>
+<table class="caption-top table">
+<caption>Tabela 1: Análise de variância</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">CV</th>
+<th style="text-align: center;">GL</th>
+<th style="text-align: center;">SQ</th>
+<th style="text-align: center;">QM</th>
+<th style="text-align: center;">F-Calc</th>
+<th style="text-align: center;">F-Tab</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Tratamentos</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">593,82</td>
+<td style="text-align: center;">197,94</td>
+<td style="text-align: center;">56,07*</td>
+<td style="text-align: center;">3,10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Resíduos</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">70,65</td>
+<td style="text-align: center;">3,53</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">664,47</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Tabela 2: Totais dos tratamentos</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><span class="math inline">\(t_1\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(t_2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(t_3\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(t_4\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Totais (<span class="math inline">\(T_i\)</span>)</td>
+<td style="text-align: center;">135,85</td>
+<td style="text-align: center;">139,75</td>
+<td style="text-align: center;">206,39</td>
+<td style="text-align: center;">137,03</td>
+</tr>
+</tbody>
+</table>
+<p>Assim, conclua se o contraste <span class="math inline">\(C_1 = 3\mu_3 −(\mu_1 + \mu_2 + \mu_4)\)</span> é significativo utilizando o teste de Scheffé, a um nível de 5% de significância.</p>
+<p><u>Resolução:</u></p>
+<p><span class="math display">\[
+\hat{C}_1 = 3\bar{y}_3 − (\bar{y}_1 + \bar{y}_2 + \bar{y}_4) \\
+\hat{C}_1 = 3\times\frac{206,39}{6} − (\frac{135,85}{6} + \frac{139,75}{6} + \frac{137,03}{6}) \\
+\boxed{\hat{C}_1 = 34,42} \\
+\\
+S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}} \\
+S=\sqrt{(4-1)3,10\times3,53\times\frac{3^2+(-1)^2+(-1)^2+(-1)^2}{6}} \\
+\boxed{S=8,10}
+\]</span> Conclusão: Como <span class="math inline">\(\hat{C} ≥ S\)</span>, rejeita-se <span class="math inline">\(H_0\)</span>, ou seja, o teste é significativo, o que indica que o contraste é diferente de zero.</p>
+<p><strong>Exemplo no R</strong></p>
+<p>Em um experimento iteiramente casualizado com 4 tratamentos e 4 repetições, estudaram-se os efeitos de Bacitracina 2 de zinco (BDZ) e Anti-stress sobre frangos de corte alimentados com rações à base de sorgo, desde a fase inicial até a final. Foram utilizados 540 pintos da raça “Cobb-100” da Granja Avisco - Mococa/SP, e os tratamentos foram:</p>
+<p>A - Concentrado Comercial + milho;<br>
+B - Concentrado Comercial + Sorgo;<br>
+C - Concentrado Comercial + Sorgo + BDZ;<br>
+D - Concentrado Comercial + Sorgo + Anti-stress.</p>
+<p>Os resultados obtidos para a conversão alimentar no período inicial (4 a 35 de idade) foram:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Tratamentos</th>
+<th style="text-align: center;">Rep.1</th>
+<th style="text-align: center;">Rep.2</th>
+<th style="text-align: center;">Rep.3</th>
+<th style="text-align: center;">Rep.4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">2,10</td>
+<td style="text-align: center;">1,99</td>
+<td style="text-align: center;">2,02</td>
+<td style="text-align: center;">2,00</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">2,35</td>
+<td style="text-align: center;">2,26</td>
+<td style="text-align: center;">2,18</td>
+<td style="text-align: center;">2,17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">2,02</td>
+<td style="text-align: center;">2,04</td>
+<td style="text-align: center;">2,03</td>
+<td style="text-align: center;">2,05</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">2,19</td>
+<td style="text-align: center;">2,11</td>
+<td style="text-align: center;">2,29</td>
+<td style="text-align: center;">2,30</td>
+</tr>
+</tbody>
+</table>
+<p>A 5% de significância, pede-se:<br>
+Faça a análise de variância e verifique os pressupostos. Há efeito de tratamento? Verifique se, em média, o contraste formado pelos tratamentos (A,B) vs (C,D) é significativo.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>y<span class="ot">=</span><span class="fu">c</span>(<span class="fl">2.10</span>,<span class="fl">1.99</span>,<span class="fl">2.02</span>,<span class="fl">2.00</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fl">2.35</span>,<span class="fl">2.26</span>,<span class="fl">2.18</span>,<span class="fl">2.17</span>,</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fl">2.02</span>,<span class="fl">2.04</span>,<span class="fl">2.03</span>,<span class="fl">2.05</span>,</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="fl">2.19</span>,<span class="fl">2.11</span>,<span class="fl">2.29</span>,<span class="fl">2.30</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>trat<span class="ot">=</span><span class="fu">as.factor</span>(<span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"A"</span>,<span class="st">"B"</span>,<span class="st">"C"</span>,<span class="st">"D"</span>),<span class="at">each=</span><span class="dv">4</span>))</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>dados<span class="ot">=</span><span class="fu">data.frame</span>(trat,y)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>mod<span class="ot">=</span><span class="fu">aov</span>(y<span class="sc">~</span>trat,<span class="at">data=</span>dados)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(mod<span class="sc">$</span>residuals)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dados</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>dados <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">trat =</span> <span class="fu">factor</span>(<span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>, <span class="st">"D"</span>), <span class="at">each =</span> <span class="dv">4</span>)),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="fl">2.10</span>, <span class="fl">1.99</span>, <span class="fl">2.02</span>, <span class="fl">2.00</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        <span class="fl">2.35</span>, <span class="fl">2.26</span>, <span class="fl">2.18</span>, <span class="fl">2.17</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="fl">2.02</span>, <span class="fl">2.04</span>, <span class="fl">2.03</span>, <span class="fl">2.05</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="fl">2.19</span>, <span class="fl">2.11</span>, <span class="fl">2.29</span>, <span class="fl">2.30</span>))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Modelo</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>modelo <span class="ot">&lt;-</span> <span class="fu">aov</span>(y <span class="sc">~</span> trat, <span class="at">data =</span> dados)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Análise de variância</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(modelo)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            Df  Sum Sq Mean Sq F value   Pr(&gt;F)    
+trat         3 0.16073 0.05358   12.07 0.000618 ***
+Residuals   12 0.05325 0.00444                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Testes de pressuposições</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(modelo))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
     Shapiro-Wilk normality test
 
-data:  mod$residuals
+data:  residuals(modelo)
 W = 0.97521, p-value = 0.9142</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bartlett.test</span>(mod<span class="sc">$</span>residuals<span class="sc">~</span>trat)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bartlett.test</span>(y <span class="sc">~</span> trat, <span class="at">data =</span> dados)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
     Bartlett test of homogeneity of variances
 
-data:  mod$residuals by trat
+data:  y by trat
 Bartlett's K-squared = 7.382, df = 3, p-value = 0.06067</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>lmtest<span class="sc">::</span><span class="fu">dwtest</span>(mod)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>lmtest<span class="sc">::</span><span class="fu">dwtest</span>(modelo)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
     Durbin-Watson test
 
-data:  mod
+data:  modelo
 DW = 1.7275, p-value = 0.07129
 alternative hypothesis: true autocorrelation is greater than 0</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(mod)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Analysis of Variance Table
-
-Response: y
-          Df  Sum Sq  Mean Sq F value    Pr(&gt;F)    
-trat       3 0.16073 0.053575  12.073 0.0006178 ***
-Residuals 12 0.05325 0.004437                      
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>co<span class="ot">=</span><span class="fu">cbind</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">1</span>,<span class="sc">-</span><span class="dv">1</span>,<span class="sc">-</span><span class="dv">1</span>))</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>DescTools<span class="sc">::</span><span class="fu">ScheffeTest</span>(mod,<span class="at">which=</span><span class="st">"trat"</span>,<span class="at">contrasts=</span>co)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contraste de interesse</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>contraste <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Teste de Scheffé</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>DescTools<span class="sc">::</span><span class="fu">ScheffeTest</span>(modelo, <span class="at">which =</span> <span class="st">"trat"</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">contrasts =</span> contraste)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
   Posthoc multiple comparisons of means: Scheffe Test 
@@ -655,12 +793,12 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -1047,4 +1185,5 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
