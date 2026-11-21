@@ -494,52 +494,36 @@ window.Quarto = {
 <p>Com o uso de contrastes é possível ao pesquisador estabelecer comparações, entre tratamentos ou grupos de tratamentos, que sejam de interesse.</p>
 <p><strong>Definição</strong></p>
 <p>Uma relação linear das médias de a tratamentos, do tipo:</p>
-<p><span class="math display">\[
-C=c_1\mu_1+c_2\mu_2+\cdots+c_a\mu_a
-\]</span></p>
+<p><span class="math display">\[C=c_1\mu_1+c_2\mu_2+\cdots+c_a\mu_a\]</span></p>
 <p>Será um contraste se, e só se:</p>
-<p><span class="math display">\[
-\sum_{i=1}^{n}c_i=0
-\]</span></p>
+<p><span class="math display">\[\sum_{i=1}^{n}c_i=0\]</span></p>
 <p><strong>Exemplo 1</strong></p>
 <p>Se µ1, µ2 e µ3 são as médias de três grupos, verifique que</p>
-<p><span class="math display">\[
-C_1 = \mu_1 − \mu_2 \\
+<p><span class="math display">\[C_1 = \mu_1 − \mu_2 \\
 C_2 = \mu_1 − \mu_3 \\
-C_3 = \mu_1 + \mu_2 − 2\mu_3
-\]</span></p>
+C_3 = \mu_1 + \mu_2 − 2\mu_3\]</span></p>
 <p>são contrastes</p>
 <p><u>Resolução:</u></p>
-<p><span class="math display">\[
-C_1: 1 + (-1) + 0 \\
-\boxed{C_1 = 0} \\
+<p><span class="math display">\[C_1: 1 + (-1) + 0 \\
+\boxed{C_1 = 0\therefore Sim} \\
 \\
 C_2: 1 + 0 + (-1) \\
-\boxed{C_2 = 0} \\
+\boxed{C_2 = 0\therefore Sim} \\
 \\
 C_3: 1 + 1 + (-2) \\
-\boxed{C_3 = 0}
-\]</span></p>
+\boxed{C_3 = 0\therefore Sim}\]</span></p>
 <p><strong>Teste de Scheffé</strong></p>
 <p>O teste de Scheffé (1953) pode ser aplicado para testar todo e qualquer contraste envolvendo médias de tratamentos do tipo</p>
-<p><span class="math display">\[
-C=c_1\mu_1+c_2\mu_2+\cdots+c_a\mu_a
-\]</span></p>
+<p><span class="math display">\[C=c_1\mu_1+c_2\mu_2+\cdots+c_a\mu_a\]</span></p>
 <p>sendo a estimativa do contraste dada por:</p>
-<p><span class="math display">\[
-\hat{C}=c_1\bar{y}_1+c_2\bar{y}_2+\cdots+c_a\bar{y}_a
-\]</span></p>
+<p><span class="math display">\[\hat{C}=c_1\bar{y}_1+c_2\bar{y}_2+\cdots+c_a\bar{y}_a\]</span></p>
 <p>Não exige ortogonalidade e nem que os contrastes sejam estabelecidos a priori, basta que o teste F da análise de variância para tratamentos seja significativo.</p>
 <p>Para um contraste qualquer, C, envolvendo os a tratamentos, tem-se as seguintes hipóteses:</p>
-<p><span class="math display">\[
-H_0: C = 0 \\
-H_1: C \neq 0
-\]</span></p>
+<p><span class="math display">\[H_0: C = 0 \\
+H_1: C \neq 0\]</span></p>
 <p>Se rejeita-se <span class="math inline">\(H_0\)</span>, então o contraste difere estatisticamente de zero, e assim, os tratamentos ou os grupos são diferentes em média. Caso contrário, pode-se dizer que não são diferentes.</p>
 <p>A diferença mínima significativa, denotada por S, é calculada por:</p>
-<p><span class="math display">\[
-S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}}
-\]</span></p>
+<p><span class="math display">\[S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}}\]</span></p>
 <p>em que:<br>
 <span class="math inline">\(a\)</span> é o número de tratamentos;<br>
 <span class="math inline">\(F_{tab}\)</span> é o valor crítico da tabela, ao nível <span class="math inline">\(\alpha\)</span> de probabilidade, em função dos números de graus de liberdade de tratamentos e do resíduo;<br>
@@ -613,23 +597,22 @@ S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}}
 </table>
 <p>Assim, conclua se o contraste <span class="math inline">\(C_1 = 3\mu_3 −(\mu_1 + \mu_2 + \mu_4)\)</span> é significativo utilizando o teste de Scheffé, a um nível de 5% de significância.</p>
 <p><u>Resolução:</u></p>
-<p><span class="math display">\[
-\hat{C}_1 = 3\bar{y}_3 − (\bar{y}_1 + \bar{y}_2 + \bar{y}_4) \\
+<p><span class="math display">\[\hat{C}_1 = 3\bar{y}_3 − (\bar{y}_1 + \bar{y}_2 + \bar{y}_4) \\
 \hat{C}_1 = 3\times\frac{206,39}{6} − (\frac{135,85}{6} + \frac{139,75}{6} + \frac{137,03}{6}) \\
 \boxed{\hat{C}_1 = 34,42} \\
 \\
 S=\sqrt{(a-1)F_{tab}QM_{res}\sum_{i=1}^{a}\frac{c_i^2}{b_i}} \\
 S=\sqrt{(4-1)3,10\times3,53\times\frac{3^2+(-1)^2+(-1)^2+(-1)^2}{6}} \\
-\boxed{S=8,10}
-\]</span> Conclusão: Como <span class="math inline">\(\hat{C} ≥ S\)</span>, rejeita-se <span class="math inline">\(H_0\)</span>, ou seja, o teste é significativo, o que indica que o contraste é diferente de zero.</p>
+\boxed{S=8,10}\]</span> Conclusão: Como <span class="math inline">\(\hat{C} ≥ S\)</span>, rejeita-se <span class="math inline">\(H_0\)</span>, ou seja, o teste é significativo, o que indica que o contraste é diferente de zero.</p>
 <p><strong>Exemplo no R</strong></p>
-<p>Em um experimento iteiramente casualizado com 4 tratamentos e 4 repetições, estudaram-se os efeitos de Bacitracina 2 de zinco (BDZ) e Anti-stress sobre frangos de corte alimentados com rações à base de sorgo, desde a fase inicial até a final. Foram utilizados 540 pintos da raça “Cobb-100” da Granja Avisco - Mococa/SP, e os tratamentos foram:</p>
+<p>Em um experimento iteiramente casualizado com 4 tratamentos e 4 repetições, estudaram-se os efeitos de Bacitracina 2 de zinco (BDZ) e Anti-stress sobre frangos de corte alimentados com rações à base de sorgo, desde a fase inicial até a final. Foram utilizados 540 pintos da raça Cobb-100 da granja Avisco em Mococa/SP, e os tratamentos foram:</p>
 <p>A - Concentrado Comercial + milho;<br>
 B - Concentrado Comercial + Sorgo;<br>
 C - Concentrado Comercial + Sorgo + BDZ;<br>
 D - Concentrado Comercial + Sorgo + Anti-stress.</p>
-<p>Os resultados obtidos para a conversão alimentar no período inicial (4 a 35 de idade) foram:</p>
+<p>Os resultados obtidos para a conversão alimentar no período inicial (4 a 35 meses de idade) foram:</p>
 <table class="caption-top table">
+<caption>Tabela 3: Conversão alimentar (kg de ração/kg de ganho de peso vivo) no período inicial (4 a 35 meses dias de idade) de frangos de corte alimentados com rações à base de sorgo, com e sem aditivos.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;">Tratamentos</th>
